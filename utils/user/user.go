@@ -11,6 +11,7 @@ import (
 	"github.com/sugoto/serverless-aws-go/utils/email"
 )
 
+// Set user states
 var (
 	ErrorFailedToUnmarshalRecord = "failed to unmarshal record"
 	ErrorFailedToFetchRecord     = "failed to fetch record"
