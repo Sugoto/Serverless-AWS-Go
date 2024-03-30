@@ -15,6 +15,7 @@ var (
 	dynaClient dynamodbiface.DynamoDBAPI
 )
 
+// Main method starts
 func main() {
 	region := os.Getenv("AWS_REGION")
 	awsSession, err := session.NewSession(&aws.Config{
