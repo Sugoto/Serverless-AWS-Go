@@ -30,6 +30,7 @@ func main() {
 
 const tableName = "serverless-aws-go-users"
 
+// Handler function
 func handler(req events.APIGatewayProxyRequest) (*events.APIGatewayProxyResponse, error) {
 	switch req.HTTPMethod {
 	case "GET":
