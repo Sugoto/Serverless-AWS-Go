@@ -10,6 +10,7 @@ import (
 
 var ErrorMethodNotAllowed = "method not allowed"
 
+// Error body structure
 type ErrorBody struct {
 	ErrorMsg *string `json:"error,omitempty"`
 }
