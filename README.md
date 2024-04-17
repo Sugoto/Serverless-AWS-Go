@@ -12,6 +12,7 @@ This project demonstrates a Serverless CRUD (Create, Read, Update, Delete) micro
 
 ## 🌐 Architecture
 
+
 The Serverless CRUD microservice follows this simple architecture:
 
 - **Create**: Accepts POST requests to add new records.
